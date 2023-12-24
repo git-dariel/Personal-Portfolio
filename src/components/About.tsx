@@ -11,32 +11,33 @@ export default function About() {
         <p className=" sm:px-12 py-2 text-gray-300">Hello World!</p>
 
         <p className=" sm:px-12 py-2 text-gray-300">
-          I'm <span className="font-bold"> Dariel Avila</span>, your friendly
-          neighborhood aspiring software engineer with a knack for turning web
-          and mobile development into digital magic. As a full-stack developer,
-          I'm not just about writing code – I'm all about crafting seamless and
-          dazzling user experiences.
+          I&apos;m <span className="font-bold"> Dariel Avila</span>, your
+          friendly neighborhood aspiring software engineer with a knack for
+          turning web and mobile development into digital magic. As a full-stack
+          developer, I&apos;m not just about writing code – I&apos;m all about
+          crafting seamless and dazzling user experiences.
         </p>
 
         <p className=" sm:px-12 py-2 text-gray-300">
           I honed my skills as a backend developer at Quezelco Company, where I
           had the fantastic opportunity to be part of the IT dream team. Working
-          on the nitty-gritty of backend systems, I've become your go-to person
-          for building robust and scalable solutions.
+          on the nitty-gritty of backend systems, I&apos;ve become your go-to
+          person for building robust and scalable solutions.
         </p>
 
         <p className=" sm:px-12 py-2 text-gray-300">
-          But hey, it's not just about the code for me. I'm on a perpetual
-          learning spree, staying ahead of the tech curve and soaking in all the
-          cool innovations. Collaborative projects are my playground, and I
-          thrive in teams where creativity and excellence collide.
+          But hey, it&apos;s not just about the code for me. I&apos;m on a
+          perpetual learning spree, staying ahead of the tech curve and soaking
+          in all the cool innovations. Collaborative projects are my playground,
+          and I thrive in teams where creativity and excellence collide.
         </p>
 
         <p className=" sm:px-12 py-2 text-gray-300">
-          So why me? Because I'm not just in it for the tech; I'm in it to make
-          a mark. If you're looking for a developer with passion, skill, and a
-          dash of digital flair, you've found your match. Excited to weave some
-          coding wonders together! Let's make software magic happen! ✨
+          So why me? Because I&apos;m not just in it for the tech; I&apos;m in
+          it to make a mark. If you&apos;re looking for a developer with
+          passion, skill, and a dash of digital flair, you've found your match.
+          Excited to weave some coding wonders together! Let&apos;s make
+          software magic happen! ✨
         </p>
       </div>
     </section>
