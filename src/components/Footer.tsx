@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const Footer = () => {
   return (
-    <footer className="min-h-[100px] bg-slate-800  mt-10 w-full px-5 md:px-20 flex items-center justify-between rounded-t-2xl rounded-r-2xl">
+    <footer className="min-h-[100px] bg-slate-800  mt-10 w-full px-5 md:px-20 flex items-center justify-between rounded-t-2xl ">
       <h4 className="text-sm sm:text-base text-gray-300">
         &copy;2023 Build with passion
       </h4>

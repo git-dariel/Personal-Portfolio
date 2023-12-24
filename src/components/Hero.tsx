@@ -11,9 +11,9 @@ export const Hero = () => {
               Digital Playground
             </span>
           </h1>
-          <h1 className="text-3xl sm:text-4xl lg:text-2xl text-center font-bold font-inter text-white">
+          <h3 className="text-xl sm:text-2xl text-center font-bold font-inter text-white">
             Full-Stack Developer Portfolio
-          </h1>
+          </h3>
         </div>
 
         <div className="flex flex-col sm:flex-row items-center gap-5">
