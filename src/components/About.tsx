@@ -35,8 +35,8 @@ export default function About() {
         <p className=" sm:px-12 py-2 text-gray-300">
           So why me? Because I&apos;m not just in it for the tech; I&apos;m in
           it to make a mark. If you&apos;re looking for a developer with
-          passion, skill, and a dash of digital flair, you've found your match.
-          Excited to weave some coding wonders together! Let&apos;s make
+          passion, skill, and a dash of digital flair, you&apos;ve found your
+          match. Excited to weave some coding wonders together! Let&apos;s make
           software magic happen! ✨
         </p>
       </div>
