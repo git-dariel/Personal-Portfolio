@@ -4,10 +4,10 @@ export default function About() {
       className="bg-gray-800 rounded-[56px] h-max text-slate-50 p-6 md:p-10 my-10 sm:w-[90%] mx-auto"
       id="about"
     >
-      <h2 className="text-3xl lg:text-4xl pb-5 pl-6 sm:px-16 font-bold font-mono">
+      <h2 className="text-3xl lg:text-4xl pb-5 pl-6 sm:px-16 font-bold font-mono text-gray-300">
         {"//About"}
       </h2>
-      <div className="flex flex-col items-start justify-center h-full">
+      <div className="flex flex-col items-start justify-center h-full ">
         <p className=" sm:px-12 py-5 text-gray-300">
           Hello World! <br /> <br /> I'm <strong> Dariel Avila</strong>, your
           friendly neighborhood aspiring software engineer with a knack for

@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import { useState } from "react";
-import Link from "next/link";
+import { Link } from "react-scroll";
 
 export default function Navbar() {
   const [showNav, setShowNav] = useState<boolean>(false);
@@ -81,13 +81,46 @@ export default function Navbar() {
         ]}
       >
         <li className="hover:text-slate-300">
-          <Link href={"#about"}>{"//About"}</Link>
+          <Link
+            to="about"
+            spy={true}
+            offset={-80}
+            smooth={true}
+            duration={600}
+            aria-label="scroll to About me section"
+            role="button"
+            onClick={() => setShowNav(false)}
+          >
+            {"//About"}
+          </Link>
         </li>
         <li className="hover:text-slate-300">
-          <Link href={"#skills"}>{"//Skills"}</Link>
+          <Link
+            to="skills"
+            spy={true}
+            offset={-20}
+            smooth={true}
+            duration={600}
+            aria-label="scroll to skills section"
+            role="button"
+            onClick={() => setShowNav(false)}
+          >
+            {"//Skills"}
+          </Link>
         </li>
         <li className="hover:text-slate-300">
-          <Link href={"#projects"}>{"//Projects"}</Link>
+          <Link
+            to="projects"
+            spy={true}
+            offset={-20}
+            smooth={true}
+            duration={600}
+            aria-label="scroll to projects section"
+            role="button"
+            onClick={() => setShowNav(false)}
+          >
+            {"//Projects"}
+          </Link>
         </li>
       </motion.ul>
 

@@ -1,4 +1,4 @@
-# Dynamic Island Feature
+# Personal Portfolio with Dynamic Island Feature
 
 ## Tech Stack
 
@@ -9,9 +9,5 @@
 
 ## Follow me
 
-- on [twitter](https://twitter.com/spacecode_)
-- on [tiktok](https://www.tiktok.com/@spacecode_)
-
-## Notion Template for programmers
-
-- [yourSpaceCode](https://yourspacecode.gumroad.com/)
+- on [facebook](https://www.facebook.com/dariel.avila.129)
+- on [tiktok](https://www.tiktok.com/@darielv.23)
