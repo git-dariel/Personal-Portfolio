@@ -9,7 +9,7 @@ const robotoMono = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Personal Portofolio ",
+  title: "Personal Portfolio ",
   description: "created by git-dariel",
 };
 
@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.svg" sizes="any" />
+        <link rel="icon" href="/earth.svg" sizes="any" />
       </head>
       <body className={robotoMono.className}>{children}</body>
     </html>

@@ -2,7 +2,10 @@ import { Button } from "./ui/button";
 
 export const Hero = () => {
   return (
-    <section className="w-[90%] md:w-4/5 mx-auto h-[calc(100vh-72px)]">
+    <section
+      className="w-[90%] md:w-4/5 mx-auto h-[calc(100vh-72px)]"
+      id="hero"
+    >
       <div className="flex flex-col items-center justify-evenly h-full">
         <div className="flex flex-col gap-5">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl text-center font-medium font-inter text-white">

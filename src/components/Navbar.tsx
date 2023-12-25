@@ -54,7 +54,18 @@ export default function Navbar() {
       }}
     >
       <div className="min-w-[40px] min-h-[40px] rounded-full gap-2 bg-slate-50 flex items-center justify-center">
-        <Image src={"/favicon.svg"} alt="logo" width={44} height={44} />
+        <Link
+          to="hero"
+          spy={true}
+          offset={-80}
+          smooth={true}
+          duration={600}
+          aria-label="scroll to About me section"
+          role="button"
+          onClick={() => setShowNav(false)}
+        >
+          <Image src={"/earth.svg"} alt="logo" width={30} height={30} />
+        </Link>
       </div>
       <motion.ul
         className={`w-full ${
