@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
 // const inter = Inter({ subsets: ['latin'] });
-const robotoMono = Poppins({
+const robotoMono = Inter({
   subsets: ["latin"],
   weight: "400",
 });
 
 export const metadata: Metadata = {
-  title: "Personal Portfolio ",
+  title: "Dariel Portfolio ",
   description: "created by git-dariel",
 };
 
@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/earth.svg" sizes="any" />
+        <link rel="icon" href="/me.png" sizes="any" />
       </head>
       <body className={robotoMono.className}>{children}</body>
     </html>

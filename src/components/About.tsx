@@ -1,43 +1,25 @@
 export default function About() {
   return (
     <section
-      className="bg-gray-800 rounded-[56px] h-max text-slate-50 p-6 md:p-10 my-10 sm:w-[90%] mx-auto"
       id="about"
+      className="flex flex-col items-center justify-center h-full relative overflow-hidden pt-[35px] "
+      style={{ transform: "scale(0.9" }}
     >
-      <h2 className="text-3xl lg:text-4xl pb-5 pl-6 sm:px-16 font-bold font-mono text-gray-300">
-        {"//About"}
-      </h2>
-      <div className="flex flex-col items-start justify-center h-full ">
-        <p className=" sm:px-12 py-2 text-gray-300">Hello World!</p>
-
-        <p className=" sm:px-12 py-2 text-gray-300">
-          I&apos;m <span className="font-bold"> Dariel Avila</span>, your
-          friendly neighborhood aspiring software engineer with a knack for
+      <div className="flex flex-col  justify-around flex-wrap items-center max-w-[900px]">
+        <h1 className="text-white font-semibold text-5xl">ABOUT ME</h1>
+        <p className=" tracking-[0.5em] text-transparent font-light pb-5  bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500  text-1xl">
+          EXPLORE NOW
+        </p>
+        <p className="text-gray-300 text-center ">
+          Your friendly neighborhood aspiring software engineer with a knack for
           turning web and mobile development into digital magic. As a full-stack
           developer, I&apos;m not just about writing code – I&apos;m all about
           crafting seamless and dazzling user experiences.
-        </p>
-
-        <p className=" sm:px-12 py-2 text-gray-300">
-          I honed my skills as a backend developer at Quezelco Company, where I
-          had the fantastic opportunity to be part of the IT dream team. Working
-          on the nitty-gritty of backend systems, I&apos;ve become your go-to
-          person for building robust and scalable solutions.
-        </p>
-
-        <p className=" sm:px-12 py-2 text-gray-300">
-          But hey, it&apos;s not just about the code for me. I&apos;m on a
-          perpetual learning spree, staying ahead of the tech curve and soaking
-          in all the cool innovations. Collaborative projects are my playground,
-          and I thrive in teams where creativity and excellence collide.
-        </p>
-
-        <p className=" sm:px-12 py-2 text-gray-300">
-          So why me? Because I&apos;m not just in it for the tech; I&apos;m in
-          it to make a mark. If you&apos;re looking for a developer with
-          passion, skill, and a dash of digital flair, you&apos;ve found your
-          match. Excited to weave some coding wonders together! Let&apos;s make
-          software magic happen! ✨
+          <br />
+          <br />I honed my skills as a backend developer at Quezelco Corplan
+          Company, where I had the fantastic opportunity to be part of the IT
+          dream team. Working on the nitty-gritty of backend systems, I&apos;ve
+          become your go-to person for building robust and scalable solutions.
         </p>
       </div>
     </section>

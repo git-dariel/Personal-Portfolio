@@ -1,50 +1,100 @@
 import { Badge } from "./ui/badge";
+import { Separator } from "./ui/separator";
+import Image from "next/image";
+import { skills, softSkill, tools } from "@/lib/projectsData";
 
 export default function Skills() {
   return (
     <section
-      className="sm:w-[90%] mx-auto h-[calc(100vh-72px)] flex flex-col justify-center gap-14 sm:gap-24"
+      className="sm:w-[90%] mx-auto h-full flex flex-col justify-center sm:gap-24 my-10"
       id="skills"
     >
-      <h2 className="text-3xl font-bold text-center pt-4 font-mono text-gray-300">
-        {"//Skills"}
-      </h2>
+      <article className="flex flex-col gap-5 px-5">
+        <h2 className="text-5xl font-bold text-center pt-4 text-white">
+          {"SKILLS"}
+        </h2>
+        <div className=" h-5 flex items-center font-semibold sm:text-lg justify-center space-x-3">
+          <div>
+            <h5 className="tracking-[0.5em] text-transparent font-light pb-5  bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500  text-1xl">
+              Tech Stack
+            </h5>
+          </div>
+          {/* <Separator orientation="vertical" /> */}
+          <div>
+            <h5 className="tracking-[0.5em] text-transparent font-light pb-5  bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500  text-1xl">
+              & Design
+            </h5>
+          </div>
+        </div>
+        <section className="flex gap-4 flex-wrap justify-center max-w-5xl mx-auto">
+          {skills.map(({ id, title, icon }) => {
+            return (
+              <Badge
+                variant={"default"}
+                key={id}
+                className="flex items-center gap-1"
+              >
+                {icon && (
+                  <Image
+                    src={`/tech-icons${icon}`}
+                    alt={`${title} icon`}
+                    width={26}
+                    height={26}
+                    className="object-cover"
+                  />
+                )}
+                {title}
+              </Badge>
+            );
+          })}
+        </section>
+        <Separator className="max-w-4xl mx-auto" />
 
-      <div>
-        <div className="flex items-center font-medium sm:text-lg justify-center flex-wrap py-10 text-gray-300">
-          <h5 className="px-1.5 ">Tech Stack</h5>|
-          <h5 className="px-1.5">Tools</h5>
+        <div className="font-semibold flex items-center sm:text-lg justify-center">
+          <h5 className="tracking-[0.5em] text-transparent font-light pb-5  bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500  text-1xl">
+            Tools
+          </h5>
         </div>
 
-        <article className="flex flex-col gap-5 px-5">
-          <div className="flex gap-4 flex-wrap justify-center cursor-pointer">
-            <Badge variant={"secondary"}>HTML</Badge>
-            <Badge variant={"secondary"}>CSS</Badge>
-            <Badge variant={"secondary"}>Javascript</Badge>
-            <Badge variant={"secondary"}>Tailwind</Badge>
-            <Badge variant={"secondary"}>Typescript</Badge>
-            <Badge variant={"secondary"}>React</Badge>
-            <Badge variant={"secondary"}>Next.js</Badge>
-            <Badge variant={"secondary"}>ExpressJs</Badge>
-            <Badge variant={"secondary"}>Supabase</Badge>
-            <Badge variant={"secondary"}>SQL</Badge>
-            <Badge variant={"secondary"}>Flutter</Badge>
-            <Badge variant={"secondary"}>Git</Badge>
-            <Badge variant={"secondary"}>Github</Badge>
-            <Badge variant={"secondary"}>Postman</Badge>
-            <Badge variant={"secondary"}>Visual Studio Code</Badge>
-          </div>
-          <hr />
-          <div className="flex items-center font-medium sm:text-lg justify-center flex-wrap text-gray-300 ">
-            <h5 className="px-1.5">Soft Skills</h5>
-          </div>
-          <div className="flex gap-4 flex-wrap justify-center cursor-pointer">
-            <Badge variant={"secondary"}>Communication</Badge>
-            <Badge variant={"secondary"}>Deep Work</Badge>
-            <Badge variant={"secondary"}>Time-management</Badge>
-          </div>
-        </article>
-      </div>
+        <section className="flex gap-4 flex-wrap justify-center max-w-5xl mx-auto">
+          {tools.map(({ id, title, icon }) => {
+            return (
+              <Badge
+                variant={"default"}
+                key={id}
+                className="flex items-center gap-1"
+              >
+                {icon && (
+                  <Image
+                    src={`/tech-icons${icon}`}
+                    alt={`${title} icon`}
+                    width={22}
+                    height={22}
+                    className="object-cover"
+                  />
+                )}
+                {title}
+              </Badge>
+            );
+          })}
+        </section>
+        <Separator className="max-w-md mx-auto" />
+
+        <div className="flex items-center font-semibold sm:text-lg justify-center flex-wrap ">
+          <h5 className="tracking-[0.5em] text-transparent font-light pb-5  bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500  text-1xl">
+            Soft Skills
+          </h5>
+        </div>
+        <div className="flex gap-4 flex-wrap justify-center">
+          {softSkill.map(({ id, title }) => {
+            return (
+              <Badge variant={"default"} key={id}>
+                {title}
+              </Badge>
+            );
+          })}
+        </div>
+      </article>
     </section>
   );
 }

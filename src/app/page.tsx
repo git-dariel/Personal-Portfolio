@@ -9,11 +9,13 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="mt-[calc(16px+56px)]">
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
+      <main className="h-full w-full  bg-[url('/LooperGroup2.png')] bg-no-repeat">
+        <div className="flex flex-col gap-20">
+          <Hero />
+          <About />
+          <Skills />
+          <Projects />
+        </div>
       </main>
       <Footer />
     </>

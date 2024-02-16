@@ -26,7 +26,8 @@ export default function Navbar() {
 
   return (
     <motion.nav
-      className={`fixed inset-0 top-4 w-[95%] sm:w-[90%] mx-auto bg-gray-700 font-medium text-white flex  max-sm:justify-between gap-4 px-3 max-w-7xl items-center rounded-full font-mono h-14 p-5 overflow-hidden `}
+      className={`fixed inset-0 top-4 w-[95%] sm:w-[90%] mx-auto bg-gray-600 bg-opacity-20 backdrop-blur-lg font-medium text-white flex max-sm:justify-between gap-4 px-3 max-w-7xl items-center rounded-full font-mono h-14 p-5 overflow-hidden`}
+      style={{ zIndex: 1000 }}
       variants={{
         long: { maxWidth: 950 },
         short: { maxWidth: 280 },
@@ -64,7 +65,7 @@ export default function Navbar() {
           role="button"
           onClick={() => setShowNav(false)}
         >
-          <Image src={"/earth.svg"} alt="logo" width={30} height={30} />
+          <Image src={"/D.png"} alt="logo" width={30} height={30} />
         </Link>
       </div>
       <motion.ul
@@ -150,7 +151,11 @@ export default function Navbar() {
         initial="hidden"
         animate={hidden ? "visible" : "hidden"}
       >
-        <Button variant={"accent"} className="w-full">
+        <Button
+          variant={"secondary"}
+          className="w-full"
+          onClick={() => window.open("mailto:darielavila42@gmail.com")}
+        >
           Contact
         </Button>
       </motion.div>
