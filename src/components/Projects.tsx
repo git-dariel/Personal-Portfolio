@@ -11,11 +11,11 @@ export default function Projects() {
       className="h-max text-slate-50 p-6 md:p-10 sm:w-[95%] mx-auto text-center"
       id="projects"
     >
-      <h2 className="text-5xl lg:text-5xl pb-2 pl-6 sm:px-16 font-bold font-mono text-gray-300">
+      <h2 className="text-5xl lg:text-5xl pb-2 sm:px-16 font-bold font-mono text-gray-300">
         {"PROJECTS"}
       </h2>
 
-      <p className=" tracking-[0.5em] text-transparent font-light pb-5  bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500  text-1xl">
+      <p className=" tracking-[0.5em] text-transparent font-light pb-5 bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500 text-1xl">
         EXPLORE NOW
       </p>
 

@@ -9,7 +9,46 @@ export const projectsData = [
     github: "https://github.com/git-dariel/Apple-Store-no-backend-version-",
     link: "https://apple-client-five.vercel.app/",
   },
+  {
+    id: 2,
+    name: "Quadratus Desktop Application",
+    description:
+      "Your ultimate algebra solver, simplifying complex with precision and ease. Say goodbye to mathematical mysteries and hello to seamless solutions.",
+    image: "/quad.png",
+    techStack: [
+      "C#",
+      ".Net Framework",
+      "OpenAI",
+      "Newtonsoft.Json",
+      "System.Net.Http",
+      "SQL",
+    ],
+    github: "https://github.com/git-dariel/Quadratus",
+    link: "https://github.com/git-dariel/Quadratus",
+  },
+  {
+    id: 3,
+    name: "To Do Web Application",
+    description:
+      "Web app for task management, featuring intuitive UI, real-time collaboration, and customizable task prioritization for efficient workflow management.",
+    image: "/ToDo.png",
+    techStack: ["Next.js", "Supabase", "Tailwind Css"],
+    github: "https://github.com/git-dariel/Todo-App",
+    link: "https://to-do-tau-lemon.vercel.app/",
+  },
+  {
+    id: 4,
+    name: "Voice to Text Recognition",
+    description:
+      "Converts spoken words to written text, enabling hands-free writing, transcription, accessibility, and increased productivity.",
+    image: "/voice.png",
+    techStack: ["HTML", "CSS", "Javascript"],
+    github:
+      "https://github.com/git-dariel/Voice-to-Text-Recognition?tab=readme-ov-file",
+    link: "https://voice-to-text-recognition.vercel.app/",
+  },
 ];
+
 export const softSkill = [
   {
     id: 1,

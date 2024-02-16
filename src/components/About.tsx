@@ -6,7 +6,7 @@ export default function About() {
       style={{ transform: "scale(0.9" }}
     >
       <div className="flex flex-col  justify-around flex-wrap items-center max-w-[900px]">
-        <h1 className="text-white font-semibold text-5xl">ABOUT ME</h1>
+        <h1 className="text-white font-semibold text-5xl pb-2">ABOUT ME</h1>
         <p className=" tracking-[0.5em] text-transparent font-light pb-5  bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500  text-1xl">
           EXPLORE NOW
         </p>
