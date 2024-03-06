@@ -6,7 +6,7 @@ export const projectsData = [
       "Sleek e-commerce app with Apple-inspired design, showcasing iPhone15 and more.",
     image: "/AppleStore.png",
     techStack: ["React", "Redux", "NodeJS", "ExpressJS", "Styled Components"],
-    github: "https://github.com/git-dariel/Apple-Store-no-backend-version-",
+    github: "https://github.com/git-dariel/ShoppingWebsite",
     link: "https://apple-client-five.vercel.app/",
   },
   {
@@ -36,17 +36,17 @@ export const projectsData = [
     github: "https://github.com/git-dariel/Todo-App",
     link: "https://to-do-tau-lemon.vercel.app/",
   },
-  {
-    id: 4,
-    name: "Voice to Text Recognition",
-    description:
-      "Converts spoken words to written text, enabling hands-free writing, transcription, accessibility, and increased productivity.",
-    image: "/voice.png",
-    techStack: ["HTML", "CSS", "Javascript"],
-    github:
-      "https://github.com/git-dariel/Voice-to-Text-Recognition?tab=readme-ov-file",
-    link: "https://voice-to-text-recognition.vercel.app/",
-  },
+  // {
+  //   id: 4,
+  //   name: "Voice to Text Recognition",
+  //   description:
+  //     "Converts spoken words to written text, enabling hands-free writing, transcription, accessibility, and increased productivity.",
+  //   image: "/voice.png",
+  //   techStack: ["HTML", "CSS", "Javascript"],
+  //   github:
+  //     "https://github.com/git-dariel/Voice-to-Text-Recognition?tab=readme-ov-file",
+  //   link: "https://voice-to-text-recognition.vercel.app/",
+  // },
 ];
 
 export const softSkill = [
