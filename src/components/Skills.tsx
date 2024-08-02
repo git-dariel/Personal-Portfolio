@@ -10,9 +10,7 @@ export default function Skills() {
       id="skills"
     >
       <article className="flex flex-col gap-5 px-5">
-        <h2 className="text-5xl font-bold text-center pt-4 text-white">
-          {"SKILLS"}
-        </h2>
+        <h2 className="text-5xl font-bold text-center pt-4 text-white">SKILLS</h2>
         <div className=" h-5 flex items-center font-semibold sm:text-lg justify-center space-x-3">
           <div>
             <h5 className="tracking-[0.5em] text-transparent font-light pb-5  bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500  text-1xl">
@@ -29,11 +27,7 @@ export default function Skills() {
         <section className="flex gap-4 flex-wrap justify-center max-w-5xl mx-auto">
           {skills.map(({ id, title, icon }) => {
             return (
-              <Badge
-                variant={"default"}
-                key={id}
-                className="flex items-center gap-1"
-              >
+              <Badge variant={"default"} key={id} className="flex items-center gap-1">
                 {icon && (
                   <Image
                     src={`/tech-icons${icon}`}
@@ -59,11 +53,7 @@ export default function Skills() {
         <section className="flex gap-4 flex-wrap justify-center max-w-5xl mx-auto">
           {tools.map(({ id, title, icon }) => {
             return (
-              <Badge
-                variant={"default"}
-                key={id}
-                className="flex items-center gap-1"
-              >
+              <Badge variant={"default"} key={id} className="flex items-center gap-1">
                 {icon && (
                   <Image
                     src={`/tech-icons${icon}`}
@@ -86,9 +76,18 @@ export default function Skills() {
           </h5>
         </div>
         <div className="flex gap-4 flex-wrap justify-center">
-          {softSkill.map(({ id, title }) => {
+          {softSkill.map(({ id, title, icon }) => {
             return (
-              <Badge variant={"default"} key={id}>
+              <Badge variant={"default"} key={id} className="flex items-center gap-1">
+                {icon && (
+                  <Image
+                    src={`/tech-icons${icon}`}
+                    alt={`${title} icon`}
+                    width={22}
+                    height={22}
+                    className="object-cover"
+                  />
+                )}
                 {title}
               </Badge>
             );

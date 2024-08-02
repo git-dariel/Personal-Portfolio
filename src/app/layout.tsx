@@ -9,15 +9,11 @@ const robotoMono = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Dariel Portfolio ",
+  title: "Dariel Portfolio",
   description: "created by git-dariel",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>

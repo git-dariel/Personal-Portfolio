@@ -1,66 +1,41 @@
 export const projectsData = [
   {
     id: 1,
-    name: "Apple Inspired E-Commerce Web Application",
+    name: "PUP-ADMS",
     description:
-      "Sleek e-commerce app with Apple-inspired design, showcasing iPhone15 and more.",
-    image: "/AppleStore.png",
-    techStack: ["React", "Redux", "NodeJS", "ExpressJS", "Styled Components"],
-    github: "https://github.com/git-dariel/ShoppingWebsite",
-    link: "https://apple-client-five.vercel.app/",
+      "PUP-ADMS (PUP Accreditation Document Management System) is a centralized platform designed to streamline the accreditation process, improve efficiency, and empower the collaboration.",
+    image: "/pup-adms.png",
+    techStack: ["React.js", "Firebase", "Tailwind CSS"],
+    github: "https://github.com/git-dariel/PUP-ADMS",
+    link: "https://pup-adms.vercel.app/",
   },
   {
     id: 2,
-    name: "Quadratus Desktop Application",
+    name: "Project Scheduler (not finished yet.)",
     description:
-      "Your ultimate algebra solver, simplifying complex with precision and ease. Say goodbye to mathematical mysteries and hello to seamless solutions.",
-    image: "/quad.png",
-    techStack: [
-      "C#",
-      ".Net Framework",
-      "OpenAI",
-      "Newtonsoft.Json",
-      "System.Net.Http",
-      "SQL",
-    ],
-    github: "https://github.com/git-dariel/Quadratus",
-    link: "https://github.com/git-dariel/Quadratus",
+      "Streamline project management with our scheduler. Plan, track, and collaborate efficiently using intuitive features and a Gantt chart.",
+    image: "/project-scheduler.png",
+    techStack: ["MongoDB", "Express.js", "React.js", "Node.js", "Tailwind CSS"],
+    github: "https://github.com/git-dariel/Project-Management",
+    link: "https://project-management-testing.vercel.app",
   },
-  {
-    id: 3,
-    name: "To Do Web Application",
-    description:
-      "Web app for task management, featuring intuitive UI, real-time collaboration, and customizable task prioritization for efficient workflow management.",
-    image: "/ToDo.png",
-    techStack: ["Next.js", "Supabase", "Tailwind Css"],
-    github: "https://github.com/git-dariel/Todo-App",
-    link: "https://to-do-tau-lemon.vercel.app/",
-  },
-  // {
-  //   id: 4,
-  //   name: "Voice to Text Recognition",
-  //   description:
-  //     "Converts spoken words to written text, enabling hands-free writing, transcription, accessibility, and increased productivity.",
-  //   image: "/voice.png",
-  //   techStack: ["HTML", "CSS", "Javascript"],
-  //   github:
-  //     "https://github.com/git-dariel/Voice-to-Text-Recognition?tab=readme-ov-file",
-  //   link: "https://voice-to-text-recognition.vercel.app/",
-  // },
 ];
 
 export const softSkill = [
   {
     id: 1,
     title: "Communication",
+    icon: "/check.svg",
   },
   {
     id: 2,
     title: "Deep Work",
+    icon: "/check.svg",
   },
   {
     id: 3,
     title: "Time-management",
+    icon: "/check.svg",
   },
 ];
 
@@ -80,14 +55,14 @@ export const skills = [
     title: "Javascript",
     icon: "/javascript.svg",
   },
-  // {
-  //   id: 4,
-  //   title: "Typescript",
-  //   icon: "/typescript.svg",
-  // },
   {
     id: 4,
-    title: "React",
+    title: "Typescript",
+    icon: "/typescript.svg",
+  },
+  {
+    id: 4,
+    title: "React.js",
     icon: "/react.svg",
   },
   {
@@ -97,7 +72,7 @@ export const skills = [
   },
   {
     id: 6,
-    title: "Tailwind Css",
+    title: "Tailwind CSS",
     icon: "/tailwind.svg",
   },
   {
@@ -107,28 +82,28 @@ export const skills = [
   },
   {
     id: 8,
-    title: ".Net Framework",
-    icon: "",
+    title: "Shadcn UI",
+    icon: "/shadcn.svg",
   },
   {
     id: 9,
-    title: "Shadcn UI",
-    icon: "",
-  },
-  {
-    id: 10,
     title: "MySQL",
     icon: "/mysql.svg",
   },
   {
+    id: 10,
+    title: "MongoDB",
+    icon: "/mongodb.svg",
+  },
+  {
     id: 11,
-    title: "Supabase",
-    icon: "/supabase.svg",
+    title: "Firebase",
+    icon: "/firebase.svg",
   },
   {
     id: 12,
-    title: "Firebase",
-    icon: "/firebase.svg",
+    title: "Figma",
+    icon: "/figma.svg",
   },
 ];
 
@@ -162,12 +137,12 @@ export const tools = [
 
 export const Social_Icons = [
   {
-    link: "https://github.com/ibrahimmemonn",
+    link: "",
     image: "/Github.svg",
     alt: "Github",
   },
   {
-    link: "https://www.instagram.com/ibii.memon/?hl=en",
+    link: "",
     image: "/Instagram.svg",
     alt: "Instagram",
   },
