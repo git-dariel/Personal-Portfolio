@@ -12,10 +12,10 @@ export default function About() {
         </p>
         <p className="text-gray-300 text-center ">
           Your friendly neighborhood aspiring software engineer with a knack for turning web and
-          mobile development into digital magic. As a full-stack developer, I&apos;m not just about
+          mobile development into digital magic. As a technology developer, I&apos;m not just about
           writing code – I&apos;m all about crafting seamless and dazzling user experiences.
           <br />
-          <br />I honed my skills as a backend developer at Trifecta Solutions Inc. and Unlad
+          <br />I honed my skills as a technology developer at Trifecta Solutions Inc. and Unlad
           Foundation, where I had the fantastic opportunity to be part of the IT dream team. Working
           on the nitty-gritty of backend systems, I&apos;ve become your go-to person for building
           robust and scalable solutions.

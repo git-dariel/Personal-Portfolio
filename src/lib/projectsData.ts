@@ -11,13 +11,32 @@ export const projectsData = [
   },
   {
     id: 2,
-    name: "Project Scheduler (not finished yet.)",
+    name: "Code Red Philippines",
     description:
-      "Streamline project management with our scheduler. Plan, track, and collaborate efficiently using intuitive features and a Gantt chart.",
-    image: "/project-scheduler.png",
-    techStack: ["MongoDB", "Express.js", "React.js", "Node.js", "Tailwind CSS"],
-    github: "https://github.com/git-dariel/Project-Management",
-    link: "https://project-management-testing.vercel.app",
+      "Code Red Philippines Project is to empower and protect the Filipino people by providing high-quality first aid kits for every situation.",
+    image: "/codered.png",
+    techStack: ["Shopify", "GoDaddy"],
+    link: "https://coderedphilippines.com/",
+  },
+  {
+    id: 3,
+    name: "Mongo",
+    description:
+      "A robust and scalable MongoDB template using Express.js and TypeScript, designed for building modern web applications.",
+    image: "/mongo.png",
+    techStack: ["MongoDB", "Express.js", "Typescript", "Node.js"],
+    github: "https://github.com/git-dariel/Mongo",
+    link: "https://github.com/git-dariel/Mongo",
+  },
+  {
+    id: 4,
+    name: "Listahan",
+    description:
+      "A modern note-taking app designed for clarity and simplicity. Capture your ideas with style, organize with ease, and access them anywhere.",
+    image: "/listahan.png",
+    techStack: ["Next.js", "Tailwind CSS", "Local Storage", "React Quill"],
+    github: "https://github.com/git-dariel/listahan-app",
+    link: "https://listahan.vercel.app/",
   },
 ];
 

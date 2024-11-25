@@ -4,19 +4,10 @@ import Image from "next/image";
 
 export const Hero = () => {
   return (
-    <div
-      id="hero"
-      className="flex flex-row items-center justify-center px-20 mt-[150px] z-[20] "
-    >
+    <div id="hero" className="flex flex-row items-center justify-center px-20 mt-[150px] z-[20] ">
       <div className="flex flex-col  justify-center  text-center">
         <div className="justify-center flex ">
-          <Image
-            priority
-            src="/Me.png"
-            height={300}
-            width={300}
-            alt="Dariel Avila"
-          />
+          <Image priority src="/Me.png" height={300} width={300} alt="Dariel Avila" />
         </div>
 
         <h1 className="text-3xl sm:text-4xl lg:text-5xl text-center font-medium font-inter text-white">
@@ -33,9 +24,8 @@ export const Hero = () => {
           🍿
         </p>
         <p className="text-md text-gray-200 my-5 max-w-[600px]">
-          Passionate Web Developer with a focus on React and Express
-          development, dedicated to crafting elegant and user-friendly web
-          applications.
+          Passionate Technology Developer with a focus on React and Express development, dedicated
+          to crafting elegant and user-friendly web applications.
         </p>
         <div className="text-md flex justify-center">
           <button

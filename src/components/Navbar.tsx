@@ -103,7 +103,7 @@ export default function Navbar() {
             role="button"
             onClick={() => setShowNav(false)}
           >
-            {"//About"}
+            {"About"}
           </Link>
         </li>
         <li className="hover:text-slate-300">
@@ -117,7 +117,7 @@ export default function Navbar() {
             role="button"
             onClick={() => setShowNav(false)}
           >
-            {"//Skills"}
+            {"Skills"}
           </Link>
         </li>
         <li className="hover:text-slate-300">
@@ -131,7 +131,7 @@ export default function Navbar() {
             role="button"
             onClick={() => setShowNav(false)}
           >
-            {"//Projects"}
+            {"Projects"}
           </Link>
         </li>
       </motion.ul>
