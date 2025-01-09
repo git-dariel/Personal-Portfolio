@@ -6,11 +6,13 @@ export default function About() {
       style={{ transform: "scale(0.9" }}
     >
       <div className="flex flex-col  justify-around flex-wrap items-center max-w-[900px]">
-        <h1 className="text-white font-semibold text-5xl pb-2">ABOUT ME</h1>
+        <h2 className="text-5xl lg:text-5xl pb-2 sm:px-16 font-bold font-mono text-gray-300">
+          {"ABOUT ME"}
+        </h2>
         <p className=" tracking-[0.5em] text-transparent font-light pb-5  bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500  text-1xl">
           EXPLORE NOW
         </p>
-        <p className="text-gray-300 text-center ">
+        <p className="text-gray-300 text-center text-base">
           Your friendly neighborhood aspiring software engineer with a knack for turning web and
           mobile development into digital magic. As a technology developer, I&apos;m not just about
           writing code – I&apos;m all about crafting seamless and dazzling user experiences.

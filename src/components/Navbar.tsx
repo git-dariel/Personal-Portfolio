@@ -87,10 +87,7 @@ export default function Navbar() {
           },
         }}
         initial={"hidden"}
-        animate={[
-          hidden && !showNav ? "hidden" : "visible",
-          showNav ? "visible" : "",
-        ]}
+        animate={[hidden && !showNav ? "hidden" : "visible", showNav ? "visible" : ""]}
       >
         <li className="hover:text-slate-300">
           <Link
@@ -132,6 +129,34 @@ export default function Navbar() {
             onClick={() => setShowNav(false)}
           >
             {"Projects"}
+          </Link>
+        </li>
+        <li className="hover:text-slate-300">
+          <Link
+            to="timeline"
+            spy={true}
+            offset={-20}
+            smooth={true}
+            duration={600}
+            aria-label="scroll to timeline section"
+            role="button"
+            onClick={() => setShowNav(false)}
+          >
+            {"Timeline"}
+          </Link>
+        </li>
+        <li className="hover:text-slate-300">
+          <Link
+            to="certificates"
+            spy={true}
+            offset={-20}
+            smooth={true}
+            duration={600}
+            aria-label="scroll to certificates section"
+            role="button"
+            onClick={() => setShowNav(false)}
+          >
+            {"Certificates"}
           </Link>
         </li>
       </motion.ul>

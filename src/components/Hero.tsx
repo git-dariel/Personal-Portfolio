@@ -24,8 +24,8 @@ export const Hero = () => {
           🍿
         </p>
         <p className="text-md text-gray-200 my-5 max-w-[600px]">
-          Passionate Technology Developer with a focus on React and Express development, dedicated
-          to crafting elegant and user-friendly web applications.
+          Adaptable, quick to learn, and a natural leader. Driven by a clear vision, proactive, and
+          deeply passionate about technologies that give back to society.
         </p>
         <div className="text-md flex justify-center">
           <button

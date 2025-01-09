@@ -10,7 +10,9 @@ export default function Skills() {
       id="skills"
     >
       <article className="flex flex-col gap-5 px-5">
-        <h2 className="text-5xl font-bold text-center pt-4 text-white">SKILLS</h2>
+        <h2 className="text-5xl lg:text-5xl pb-2 sm:px-16 font-bold font-mono text-gray-300 text-center">
+          {"SKILLS"}
+        </h2>
         <div className=" h-5 flex items-center font-semibold sm:text-lg justify-center space-x-3">
           <div>
             <h5 className="tracking-[0.5em] text-transparent font-light pb-5  bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500  text-1xl">

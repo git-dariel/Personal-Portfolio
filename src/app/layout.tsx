@@ -17,7 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/me.png" sizes="any" />
+        <link rel="icon" href="/Me.png" sizes="any" />
       </head>
       <body className={robotoMono.className}>{children}</body>
     </html>

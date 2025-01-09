@@ -8,7 +8,7 @@ import { Badge } from "./ui/badge";
 export default function Projects() {
   return (
     <section
-      className="h-max text-slate-50 p-6 md:p-10 sm:w-[95%] mx-auto text-center"
+      className="h-max text-gray-300 p-6 md:p-10 sm:w-[95%] mx-auto text-center"
       id="projects"
     >
       <h2 className="text-5xl lg:text-5xl pb-2 sm:px-16 font-bold font-mono text-gray-300">
@@ -26,7 +26,7 @@ export default function Projects() {
               key={id}
               className="rounded-[30%] flex flex-col md:flex-row justify-between gap-6 px-8 py-9 max-w-6xl mx-auto w-full"
             >
-              <div className="rounded-2xl border border-slate-950 overflow-hidden aspect-video min-w-[50%] flex items-center justify-center">
+              <div className="rounded-2xl overflow-hidden aspect-video min-w-[50%] flex items-center justify-center">
                 {image ? (
                   <Image
                     src={image}
