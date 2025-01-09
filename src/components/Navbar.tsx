@@ -39,7 +39,7 @@ export default function Navbar() {
           transition: { delay: 0, duration: 0.3 },
         },
         showNav: {
-          height: 200,
+          height: 300,
           borderRadius: 22,
           alignItems: "start",
           transition: { delay: 0 },
