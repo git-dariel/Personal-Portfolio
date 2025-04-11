@@ -48,6 +48,16 @@ export const projectsData = [
     github: "https://github.com/git-dariel/share-the-gospel",
     link: "https://share-the-gospel.vercel.app/",
   },
+  {
+    id: 6,
+    name: "ArtVerse",
+    description:
+      "ArtVerse is a revolutionary platform that bridges the gap between traditional art appreciation and modern technology. We believe in making art more accessible, interactive, and engaging through cutting-edge digital experiences.",
+    image: "/art-verse.png",
+    techStack: ["Next.js", "Tailwind CSS", "Framer Motion"],
+    github: "https://github.com/git-dariel/art-verse-app.git",
+    link: "https://art-verse-app.vercel.app/",
+  },
 ];
 
 export const softSkill = [
