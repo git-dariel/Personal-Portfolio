@@ -58,6 +58,25 @@ export const projectsData = [
     github: "https://github.com/git-dariel/art-verse-app.git",
     link: "https://art-verse-app.vercel.app/",
   },
+  {
+    id: 7,
+    name: "Smart Scout",
+    description:
+      "Leverage advanced AI technology to instantly verify the authenticity of Girl Scout uniforms. Our cutting-edge system provides accurate detection and detailed analysis to ensure uniform integrity.",
+    image: "/smart-scouts.png",
+    techStack: [
+      "React.js",
+      "Tailwind CSS",
+      "Framer Motion",
+      "MongoDB",
+      "Python",
+      "Flask",
+      "TensorFlow",
+      "Teachable Machine",
+    ],
+    github: "https://github.com/git-dariel/girl-scout-detection-app.git",
+    link: "https://smart-scouts.vercel.app/",
+  },
 ];
 
 export const softSkill = [
@@ -100,47 +119,57 @@ export const skills = [
     icon: "/typescript.svg",
   },
   {
-    id: 4,
+    id: 5,
+    title: "Python",
+    icon: "/python.svg",
+  },
+  {
+    id: 6,
     title: "React.js",
     icon: "/react.svg",
   },
   {
-    id: 5,
+    id: 7,
     title: "Next.js",
     icon: "/next.svg",
   },
   {
-    id: 6,
+    id: 8,
     title: "Tailwind CSS",
     icon: "/tailwind.svg",
   },
   {
-    id: 7,
+    id: 9,
     title: "Express.js",
     icon: "/express.svg",
   },
   {
-    id: 8,
+    id: 10,
+    title: "Flask",
+    icon: "/flask.svg",
+  },
+  {
+    id: 11,
     title: "Shadcn UI",
     icon: "/shadcn.svg",
   },
   {
-    id: 9,
+    id: 12,
     title: "MySQL",
     icon: "/mysql.svg",
   },
   {
-    id: 10,
+    id: 13,
     title: "MongoDB",
     icon: "/mongodb.svg",
   },
   {
-    id: 11,
+    id: 14,
     title: "Firebase",
     icon: "/firebase.svg",
   },
   {
-    id: 12,
+    id: 15,
     title: "Figma",
     icon: "/figma.svg",
   },
