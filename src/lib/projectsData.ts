@@ -1,55 +1,6 @@
 export const projectsData = [
   {
     id: 1,
-    name: "PUP-ADMS",
-    description:
-      "PUP-ADMS (PUP Accreditation Document Management System) is a centralized platform designed to streamline the accreditation process, improve efficiency, and empower the collaboration.",
-    image: "/pup-adms.png",
-    techStack: ["React.js", "Firebase", "Tailwind CSS"],
-    github: "https://github.com/git-dariel/PUP-ADMS",
-    link: "https://pup-adms.vercel.app/",
-  },
-  {
-    id: 2,
-    name: "Code Red Philippines",
-    description:
-      "Code Red Philippines Project is to empower and protect the Filipino people by providing high-quality first aid kits for every situation.",
-    image: "/codered.png",
-    techStack: ["Shopify", "GoDaddy"],
-    link: "https://coderedphilippines.com/",
-  },
-  {
-    id: 3,
-    name: "Mongo",
-    description:
-      "A robust and scalable MongoDB template using Express.js and TypeScript, designed for building modern web applications.",
-    image: "/mongo.png",
-    techStack: ["MongoDB", "Express.js", "Typescript", "Node.js"],
-    github: "https://github.com/git-dariel/Mongo",
-    link: "https://github.com/git-dariel/Mongo",
-  },
-  {
-    id: 4,
-    name: "Listahan",
-    description:
-      "A modern note-taking app designed for clarity and simplicity. Capture your ideas with style, organize with ease, and access them anywhere.",
-    image: "/listahan.png",
-    techStack: ["Next.js", "Tailwind CSS", "Local Storage", "React Quill"],
-    github: "https://github.com/git-dariel/listahan-app",
-    link: "https://listahan.vercel.app/",
-  },
-  {
-    id: 5,
-    name: "GospelShare",
-    description:
-      "GospelShare is a faith-based app that helps users spread hope, love, and salvation through Jesus Christ. It connects believers, encourages sharing inspirational content, and supports spiritual growth.",
-    image: "/share-the-gospel.png",
-    techStack: ["React.js", "Tailwind CSS", "Local Storage", "Framer Motion"],
-    github: "https://github.com/git-dariel/share-the-gospel",
-    link: "https://share-the-gospel.vercel.app/",
-  },
-  {
-    id: 6,
     name: "ArtVerse",
     description:
       "ArtVerse is a revolutionary platform that bridges the gap between traditional art appreciation and modern technology. We believe in making art more accessible, interactive, and engaging through cutting-edge digital experiences.",
@@ -59,7 +10,7 @@ export const projectsData = [
     link: "https://art-verse-app.vercel.app/",
   },
   {
-    id: 7,
+    id: 2,
     name: "Smart Scout",
     description:
       "Leverage advanced AI technology to instantly verify the authenticity of Girl Scout uniforms. Our cutting-edge system provides accurate detection and detailed analysis to ensure uniform integrity.",
@@ -76,6 +27,55 @@ export const projectsData = [
     ],
     github: "https://github.com/git-dariel/girl-scout-detection-app.git",
     link: "https://smart-scouts.vercel.app/",
+  },
+  {
+    id: 3,
+    name: "PUP-ADMS",
+    description:
+      "PUP-ADMS (PUP Accreditation Document Management System) is a centralized platform designed to streamline the accreditation process, improve efficiency, and empower the collaboration.",
+    image: "/pup-adms.png",
+    techStack: ["React.js", "Firebase", "Tailwind CSS"],
+    github: "https://github.com/git-dariel/PUP-ADMS",
+    link: "https://pup-adms.vercel.app/",
+  },
+  {
+    id: 4,
+    name: "Code Red Philippines",
+    description:
+      "Code Red Philippines Project is to empower and protect the Filipino people by providing high-quality first aid kits for every situation.",
+    image: "/codered.png",
+    techStack: ["Shopify", "GoDaddy"],
+    link: "https://coderedphilippines.com/",
+  },
+  {
+    id: 5,
+    name: "Listahan",
+    description:
+      "A modern note-taking app designed for clarity and simplicity. Capture your ideas with style, organize with ease, and access them anywhere.",
+    image: "/listahan.png",
+    techStack: ["Next.js", "Tailwind CSS", "Local Storage", "React Quill"],
+    github: "https://github.com/git-dariel/listahan-app",
+    link: "https://listahan.vercel.app/",
+  },
+  {
+    id: 6,
+    name: "GospelShare",
+    description:
+      "GospelShare is a faith-based app that helps users spread hope, love, and salvation through Jesus Christ. It connects believers, encourages sharing inspirational content, and supports spiritual growth.",
+    image: "/share-the-gospel.png",
+    techStack: ["React.js", "Tailwind CSS", "Local Storage", "Framer Motion"],
+    github: "https://github.com/git-dariel/share-the-gospel",
+    link: "https://share-the-gospel.vercel.app/",
+  },
+  {
+    id: 7,
+    name: "Mongo",
+    description:
+      "A robust and scalable MongoDB template using Express.js and TypeScript, designed for building modern web applications.",
+    image: "/mongo.png",
+    techStack: ["MongoDB", "Express.js", "Typescript", "Node.js"],
+    github: "https://github.com/git-dariel/Mongo",
+    link: "https://github.com/git-dariel/Mongo",
   },
 ];
 
