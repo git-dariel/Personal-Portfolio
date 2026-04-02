@@ -179,7 +179,7 @@ export default function Navbar() {
         <Button
           variant={"secondary"}
           className="w-full"
-          onClick={() => window.open("mailto:darielavila42@gmail.com")}
+          onClick={() => window.open("mailto:dariel.v.avila@gmail.com")}
         >
           Contact
         </Button>
