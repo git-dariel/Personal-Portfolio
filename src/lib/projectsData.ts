@@ -40,6 +40,26 @@ export const projectsData = [
   },
   {
     id: 4,
+    name: "Office of Guidance and Counseling Services (Capstone Project)",
+    description:
+      "A comprehensive web application for mental health screening, counseling appointment management, and wellness resources for university students.",
+    image: "/pup-guidance.png",
+    techStack: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Cloudinary"],
+    github: "https://github.com/git-dariel/capstone-app",
+    link: "https://pup-guidance-center.vercel.app/",
+  },
+  {
+    id: 5,
+    name: "Pahinga",
+    description:
+      "Pahinga is a calm desktop companion for Windows that helps you take breaks, drink water, and move during long computer sessions. It lives in your system tray and speaks up only when it matters.",
+    image: "/pahinga-app.png",
+    techStack: ["Electron.js", "Tailwind CSS", "Node.js", "Better SQLite3"],
+    github: "https://github.com/git-dariel/pahinga-app",
+    link: "https://pahinga-site.vercel.app/",
+  },
+  {
+    id: 6,
     name: "PUP-ADMS (Capstone Project)",
     description:
       "PUP-ADMS (PUP Accreditation Document Management System) is a centralized platform designed to streamline the accreditation process, improve efficiency, and empower the collaboration.",
@@ -205,14 +225,28 @@ export const Social_Icons = [
 export const timeline = [
   {
     year: "2026",
-    title: "Software Engineer (Filipino Trusted Care Center)",
-    duration: "July 2025 - Present",
+    title: "Bachelor of Science in Information Technology",
+    duration: "Upcoming in September 2026",
+    details:
+      "I pursued the knowledge that a information technology degree had to offer. I learned about computer hardware, data structures and algorithm, an array of programming, and aspects of internet of things.",
+  },
+  {
+    year: "2026",
+    title: "Advanced App Engineering Sr. Analyst (Accenture)",
+    duration: "July 6, 2026",
+    details:
+      "As an Advanced App Engineering Sr. Analyst at Accenture, I am currently involved in enterprise-level application engineering and technology delivery. My role focuses on contributing to software development, system enhancement, application support, and collaboration with cross-functional teams while continuously improving my skills in building reliable, scalable, and business-focused software solutions.",
+  },
+  {
+    year: "2026",
+    title: "Software Developer (Filipino Trusted Care Center)",
+    duration: "July 7, 2025 - July 4, 2026",
     details:
       "As a Software Engineer at Filipino Trusted Care Center, I manage and enhance the Electronic Medical Records (EMR) system for the Yakap Program under PhilHealth, ensuring secure, efficient handling of patient data, streamlining clinical workflows, and supporting healthcare providers through reliable, scalable system solutions.",
   },
   {
     year: "2026",
-    title: "Software Engineer (Illustrados Creatives and Technology Inc.)",
+    title: "Software Backend Engineer (Illustrados Creatives and Technology Inc.)",
     duration: "June 2025 - February 2026",
     details:
       "As a Software Engineer Lead for a Web3 Messaging Application, Lead Developer for an E-commerce Application, and contributor to platforms such as GForce (a dance class management system) and SureOne.ph (an online insurance platform), I utilized TypeScript, Node.js, JavaScript, Post-Quantum Cryptography, Next.js, Google Cloud Platform, Docker, Prisma, and Shopify to deliver secure, scalable solutions, driving the development of these systems from architecture to implementation.",
@@ -234,7 +268,7 @@ export const timeline = [
   {
     year: "2024",
     title: "Diploma in Information Communication Technology",
-    duration: "3 years",
+    duration: "September 2024",
     details:
       "I pursued the knowledge that a information technology diploma had to offer. I learned about computer hardware, data structures and algorithm, an array of programming, and aspects of internet of things.",
   },
